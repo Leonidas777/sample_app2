@@ -28,7 +28,6 @@ textarea {
 	}
 }
 
-
 /*typography*/
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
@@ -69,7 +68,6 @@ p {
 	}
 }
 
-
 /*footer*/
 footer {
 	margin-top: 45px;
@@ -81,8 +79,7 @@ footer {
 		&:hover {
 			color: #222;
 		}
-	}
-	
+	}	
 	small {
 		float: left;
 	}
@@ -128,7 +125,6 @@ aside {
 		}
 	}
 }
-
 .gravatar {
 	float: left;
 	margin-right: 10px;
@@ -141,11 +137,9 @@ input, textarea, select, .uneditable-input {
 	margin-bottom: 15px;
 	@include box_sizing;
 }
-
 input {
 	height: auto !important;
 }
-
 #error_explanation {
 	color: #f00;
 	ul {
@@ -153,7 +147,6 @@ input {
 		margin: 0 0 18px 0;
 	}
 }
-
 .field_width_errors {
 	@extend .control-group;
 	@extend .error;
